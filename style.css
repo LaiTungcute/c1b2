@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 670px;
+    display: flex;
+}
+
+.box {
+    width: 304px;
+    height: 519px;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+
+.box img {
+    width: 304px;
+    height: 144px;
+}
+
+.box .content{
+    margin-top: 20px;
+}
+
+.box .table {
+    width: 252px;
+    height: 79px;
+    background-color: plum;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box .icon {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.table .pay {
+    margin-right: 40px;
+}
+
+.box .nut .payment{
+    margin-top: 50px;
+    width: 255px;
+    height: 43px;
+    background-color: rgb(25, 0, 255);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.nut .cancer {
+    margin-top: 20px;
+    background-color: aqua;
+    border: 0;
+    cursor: pointer;
+}
